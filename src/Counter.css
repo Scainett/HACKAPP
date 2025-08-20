@@ -1,0 +1,73 @@
+
+.counter {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.counter-display {
+  margin-bottom: 2rem;
+}
+
+.count-value {
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.increment {
+  background: var(--primary);
+  color: white;
+}
+
+.decrement {
+  background: var(--primary-dark);
+  color: white;
+}
+
+.decrement:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.reset {
+  background: var(--danger);
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.history {
+  margin-top: 2rem;
+}
+
+.history ul {
+  list-style: none;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.history li {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #eee;
+}

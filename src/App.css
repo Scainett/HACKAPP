@@ -1,0 +1,12 @@
+
+.app-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-title {
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
